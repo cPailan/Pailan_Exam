@@ -10,7 +10,7 @@
 }
 header {
     display: left;
-    align-items: center;
+    align-items: flex;
     height: 15vh;
     align-items: center;
     justify-content: center;
