@@ -1,90 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Portfolio</title>
-<link rel="stylesheet" href="Exam_AM.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <title>AllaboutCovid</title>
 </head>
-  <body>
-
-		<div class="about-text">
-		<p>To the Moon</p>
-		<p>Web Designer & Photographer</p>
-		<p></p>
-		</div>
-	</div>
-    	<div class="works">
-		<!--text-->
-		<div class="work-text ">
-	<p>My Works</p>
-			<center>
-    <table>
-      <tr>
-        <td>
-          <div class="exwork">
-            <a>Calendar</a>
-            <img src="https://github.com/cPailan/Pailan_Midterm_Webdev/blob/master/exam/images/calendar.png?raw=true">
-            <div class="overlay">
-              <div class="overlaytext">
-              </div>
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="exwork">
-              <a>Life</a>
-            <img src="https://github.com/cPailan/Pailan_Midterm_Webdev/blob/master/exam/images/life.png?raw=true">
-            <div class="overlay">
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="exwork">
-           <a>VMG</a>
-            <img src="https://github.com/cPailan/Pailan_Midterm_Webdev/blob/master/exam/images/vmg.png?raw=true">
-            <div class="overlay">
-            </div>
-          </div>
-        </td>
-      </tr>
-    <tr>
-        <td>
-          <div class="exwork">
-             <a>Wishlist</a>
-            <img src="https://github.com/cPailan/Pailan_Midterm_Webdev/blob/master/exam/images/wishlist.png?raw=true">
-            <div class="overlay">
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="exwork">
-               <a>Tribute</a>
-            <img src="https://github.com/cPailan/Pailan_Midterm_Webdev/blob/master/exam/images/tribute.png?raw=true">
-            <div class="overlay">
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="exwork">
-              <a>Registration</a>
-            <img src="https://github.com/cPailan/Pailan_Midterm_Webdev/blob/master/exam/images/registration.png?raw=true">
-            <div class="overlay">
-            </div>
-          </div>
-        </td>
-      </tr>
-         <td>
-          <div class="exwork">
-            <a>MasterDetail</a>
-            <img src="https://github.com/cPailan/Pailan_Midterm_Webdev/blob/master/exam/images/masterdetail.png?raw=true">
-            <div class="overlay">
-            </div>
-          </div>
-        </td>
-      </tr>
-        </table>
-  </center>
-  </div>
+<body>
+    <header>
+        <div class="logo-container">
+            <img id="logo" src="logo.png" alt="logo">
+           
+           <h4 class="logo">AllaboutCovid</h4>
         </div>
-		</div>
-	</div>
-  </body>
+        <form class="Search">
+            <input id="search-type" type="text" class="form-control mr-sm-2" aria-label="Search" placeholder="Search">
+    </form>
+    <li class="nav-items">
+        <button type="button" class="btn btn-outline-primary">Login</button>
+    </li>    
+</header>
+    
+    <div class="nav">    
+            <ul class="nav-links">
+                <li><a href="https://cpailan.github.io/Pailan_Finals_WebDev/exam/AllaboutCovid.html" class="button">Home</a></li>
+                <li><a href="https://cpailan.github.io/Pailan_Finals_WebDev/exam/News.html" class="button">News</a></li>
+                <li><a href="#" class="button">CovidInfo</a></li>
+                <li><a href="https://cpailan.github.io/Pailan_Finals_WebDev/exam/aboutus.html" class="button">About Us</a></li>
+            </ul>
+</div>
+<div class="news">Top News</div>
+
+<main>
+    <div class ="iframe-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/izQ4AK_SuWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+    <div class ="picture">
+        <img id="quotes" src="quotes.jpg" alt="quotes">
+    </div>
+</div>
+<div class="newsinfo">
+    <p>As cases top 2 million worldwide, some countries ease lockdowns and others brace for worse.</p>
+</div>
+<div class="newsinfos">
+    <p>The coronavirus pandemic passed 2 million confirmed infections and 130,000 deaths worldwide on Wednesday —
+       bleak markers that experts say vastly understate the true spread and toll of the contagion because of a lack of testing.
+       The figures have roughly doubled in 13 days and continue to grow steadily.</p>
+</div>
+
+    <div class ="more">
+    <buttonmore class="buttonmore buttonmore1">More</buttonmore>
+</div>
+</main>
+</body>
 </html>
