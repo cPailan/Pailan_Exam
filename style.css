@@ -12,8 +12,8 @@ header {
     display: center;
     align-items: center;
     height: 15vh;
-    align-items: center;
-    justify-content: center;
+    align-items: flex;
+    justify-content: flex;
     
 
 }
