@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <title>ToTheMoon</title>
+    <link rel="stylesheet" href="News.css" type="text/css">
+    <title>AllaboutCovid</title>
 </head>
 <body>
     <header>
         <div class="logo-container">
-            <img id="logo" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.subpng.com%2Fpng-3csobf%2F&psig=AOvVaw2qyhEmTiFiB6qeBpKkRUEt&ust=1636527676301000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOiXnvDaivQCFQAAAAAdAAAAABAD" alt="logo">
+            <img id="logo" src="logo.png" alt="logo">
            
            <h4 class="logo">AllaboutCovid</h4>
         </div>
@@ -22,7 +22,6 @@
         <button type="button" class="btn btn-outline-primary">Login</button>
     </li>    
 </header>
-    
     <div class="nav">    
             <ul class="nav-links">
                 <li><a href="https://cpailan.github.io/Pailan_Finals_WebDev/exam/AllaboutCovid.html" class="button">Home</a></li>
@@ -32,27 +31,28 @@
             </ul>
 </div>
 <div class="news">Top News</div>
-
 <main>
-    <div class ="iframe-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/izQ4AK_SuWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   
-    <div class ="picture">
-        <img id="quotes" src="quotes.jpg" alt="quotes">
+<div class="Topnews">
+    <ul class="nav-news">
+        <li><a href="#" class="butn">Local</a></li>
+        <li><a href="#" class="butn">National</a></li>
+        <li><a href="#" class="butn">International</a></li>
+    </ul>
+</div>
+<div class ="iframe-container">
+    <div class ="localnews">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/htsDeqWs7v0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-</div>
-<div class="newsinfo">
-    <p>As cases top 2 million worldwide, some countries ease lockdowns and others brace for worse.</p>
-</div>
-<div class="newsinfos">
-    <p>The coronavirus pandemic passed 2 million confirmed infections and 130,000 deaths worldwide on Wednesday —
-       bleak markers that experts say vastly understate the true spread and toll of the contagion because of a lack of testing.
-       The figures have roughly doubled in 13 days and continue to grow steadily.</p>
-</div>
-
+    <div class ="nationalnews">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6zkba0hNiE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class ="internationalnews">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/izQ4AK_SuWU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</main>   
     <div class ="more">
-    <buttonmore class="buttonmore buttonmore1">More</buttonmore>
-</div>
-</main>
+        <buttonmore class="buttonmore buttonmore1">More</buttonmore>
+    </div>
+
 </body>
 </html>
